@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 29)
     (zones 0)
     (modules 7)
@@ -368,6 +368,9 @@
       (net 4 /VDD))
   )
 
+  (gr_text "Getting to Blinky" (at 137.7 98.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 120 120) (end 120 95) (layer Edge.Cuts) (width 0.05) (tstamp 5F02CBDA))
   (gr_line (start 155 120) (end 120 120) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 155 95) (end 155 120) (layer Edge.Cuts) (width 0.05))
