@@ -73,7 +73,7 @@ L Device:Battery_Cell BT1
 U 1 1 5F03267C
 P 3550 4000
 F 0 "BT1" H 3668 4096 50  0000 L CNN
-F 1 "Battery_Cell" H 3668 4005 50  0000 L CNN
+F 1 "CR2032" H 3668 4005 50  0000 L CNN
 F 2 "electronics-getting-to-blinky:S8211-46R" V 3550 4060 50  0001 C CNN
 F 3 "~" V 3550 4060 50  0001 C CNN
 	1    3550 4000
@@ -164,4 +164,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 5700 4400 5550
 Connection ~ 4400 5550
+Text Label 4600 3600 0    50   ~ 0
+VDD
+Text Label 4550 4900 0    50   ~ 0
+THR
+Text Label 4550 4350 0    50   ~ 0
+DIS
+Text Label 3900 5700 0    50   ~ 0
+GND
 $EndSCHEMATC
