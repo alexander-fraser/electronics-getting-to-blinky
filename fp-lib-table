@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name electronics-getting-to-blinky)(type KiCad)(uri ${KIPRJMOD}/electronics-getting-to-blinky.pretty)(options "")(descr ""))
+)

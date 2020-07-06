@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer:ICM7555xB U?
+L Timer:ICM7555xB U1
 U 1 1 5F0270B9
 P 5550 4000
-F 0 "U?" H 5550 4581 50  0000 C CNN
+F 0 "U1" H 5550 4581 50  0000 C CNN
 F 1 "ICM7555xB" H 5550 4490 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 3600 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 6400 3600 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5F0303EF
 P 4400 3950
-F 0 "R?" H 4470 3996 50  0000 L CNN
+F 0 "R1" H 4470 3996 50  0000 L CNN
 F 1 "1K" H 4470 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 3950 50  0001 C CNN
 F 3 "~" H 4400 3950 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 4400 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5F031116
 P 4400 4600
-F 0 "R?" H 4470 4646 50  0000 L CNN
+F 0 "R2" H 4470 4646 50  0000 L CNN
 F 1 "470K" H 4470 4555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 4600 50  0001 C CNN
 F 3 "~" H 4400 4600 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 4400 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5F031486
 P 6600 4400
-F 0 "R?" H 6670 4446 50  0000 L CNN
+F 0 "R3" H 6670 4446 50  0000 L CNN
 F 1 "1K" H 6670 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6530 4400 50  0001 C CNN
 F 3 "~" H 6600 4400 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 6600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F031D64
 P 4400 5300
-F 0 "C?" H 4515 5346 50  0000 L CNN
+F 0 "C1" H 4515 5346 50  0000 L CNN
 F 1 "1U" H 4515 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4438 5150 50  0001 C CNN
 F 3 "~" H 4400 5300 50  0001 C CNN
@@ -69,23 +69,23 @@ F 3 "~" H 4400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5F03267C
 P 3550 4000
-F 0 "BT?" H 3668 4096 50  0000 L CNN
+F 0 "BT1" H 3668 4096 50  0000 L CNN
 F 1 "Battery_Cell" H 3668 4005 50  0000 L CNN
-F 2 "" V 3550 4060 50  0001 C CNN
+F 2 "electronics-getting-to-blinky:S8211-46R" V 3550 4060 50  0001 C CNN
 F 3 "~" V 3550 4060 50  0001 C CNN
 	1    3550 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5F03381D
 P 6600 5000
-F 0 "D?" V 6639 4882 50  0000 R CNN
+F 0 "D1" V 6639 4882 50  0000 R CNN
 F 1 "LED" V 6548 4882 50  0000 R CNN
-F 2 "" H 6600 5000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 5000 50  0001 C CNN
 F 3 "~" H 6600 5000 50  0001 C CNN
 	1    6600 5000
 	0    -1   -1   0   
